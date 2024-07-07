@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    color: black;
+    background-color: pink;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px; 
+}
+
+header h1 {
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 20px;
+    margin: 30px auto;
+}
+
+.form-input {
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  .form-input-filter {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    outline: none;
+  }
+
+  .btn {
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+
+  .btn:hover {
+    background-color: chocolate;
+  }
+
+  .btn-link {
+    font-size: 16px;
+    border: none;
+    padding: 0;
+    color: black;
+    cursor: pointer;
+  }
+
+  .btn-clear {
+    margin-top: 20px;
+    font-size: 16px;
+    color: black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .btn-clear:hover {
+    background-color: azure;
+  }
+
+  .text-red {
+    color: darksalmon;
+  }
+
+  .items {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .items li {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0 5px 20px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+
