@@ -71,3 +71,12 @@ clearItems(): Clears all items from the DOM and local storage.
 displayItems(): Displays items from local storage when the page loads.
 checkUI(): Updates the UI based on the current state of the item list.
 
+## Live Link To The Webpage.
+https://github.com/Br3dget/my-shopping-cart
+
+## Author
+The author of the project is Bridget Njoki.
+
+## Date
+8/7/2024
+
